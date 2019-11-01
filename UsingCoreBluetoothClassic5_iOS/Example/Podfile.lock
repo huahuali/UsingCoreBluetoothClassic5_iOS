@@ -1,5 +1,5 @@
 PODS:
-  - UsingCoreBluetoothClassic5_iOS (0.1.0)
+  - UsingCoreBluetoothClassic5_iOS (0.0.1)
 
 DEPENDENCIES:
   - UsingCoreBluetoothClassic5_iOS (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UsingCoreBluetoothClassic5_iOS: 7af7efff29dfce9dde24c743dd065ecd3e81ea1e
+  UsingCoreBluetoothClassic5_iOS: 4499d358104326aced87617fc87c795a4f589d2a
 
 PODFILE CHECKSUM: 3b6080dd62e51b979b4ba4886b5c1de6675696d1
 

@@ -9,8 +9,8 @@
 Pod::Spec.new do |s|
   s.name             = 'UsingCoreBluetoothClassic5_iOS'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of UsingCoreBluetoothClassic5_iOS.'
-
+  s.summary          = 'UsingCoreBluetoothClassic5_iOS.'
+  s.swift_versions   = '5.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
 #   * Try to keep it short, snappy and to the point.
@@ -21,16 +21,16 @@ Pod::Spec.new do |s|
 TODO: xcode11.1没有iOS13的模拟器，以至于api13的方法会报错，所以code中注释掉来了
                        DESC
 
-  s.homepage         = 'https://github.com/1245485258@qq.com/UsingCoreBluetoothClassic5_iOS'
+  s.homepage         = 'https://github.com/huahuali/UsingCoreBluetoothClassic5_iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1245485258@qq.com' => 'shaohuali@bestechnic.com' }
-  s.source           = { :git => 'https://github.com/1245485258@qq.com/UsingCoreBluetoothClassic5_iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/huahuali/UsingCoreBluetoothClassic5_iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
-  s.source_files = 'UsingCoreBluetoothClassic5_iOS/Classes/**/*'
+  s.source_files = 'UsingCoreBluetoothClassic5_iOS/UsingCoreBluetoothClassic5_iOS/Classes/*.swift'
   
   # s.resource_bundles = {
   #   'UsingCoreBluetoothClassic5_iOS' => ['UsingCoreBluetoothClassic5_iOS/Assets/*.png']

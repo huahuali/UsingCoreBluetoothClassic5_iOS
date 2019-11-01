@@ -1,9 +1,10 @@
 {
   "name": "UsingCoreBluetoothClassic5_iOS",
-  "version": "0.1.0",
-  "summary": "A short description of UsingCoreBluetoothClassic5_iOS.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/1245485258@qq.com/UsingCoreBluetoothClassic5_iOS",
+  "version": "0.0.1",
+  "summary": "UsingCoreBluetoothClassic5_iOS.",
+  "swift_versions": "5.0",
+  "description": "TODO: xcode11.1没有iOS13的模拟器，以至于api13的方法会报错，所以code中注释掉来了",
+  "homepage": "https://github.com/huahuali/UsingCoreBluetoothClassic5_iOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -13,10 +14,11 @@
   },
   "source": {
     "git": "https://github.com/1245485258@qq.com/UsingCoreBluetoothClassic5_iOS.git",
-    "tag": "0.1.0"
+    "tag": "0.0.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "UsingCoreBluetoothClassic5_iOS/Classes/**/*"
+  "source_files": "UsingCoreBluetoothClassic5_iOS/Classes/**/*",
+  "swift_version": "5.0"
 }
