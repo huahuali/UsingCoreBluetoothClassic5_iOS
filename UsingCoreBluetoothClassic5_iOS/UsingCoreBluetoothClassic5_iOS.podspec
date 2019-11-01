@@ -28,7 +28,7 @@ TODO: xcode11.1没有iOS13的模拟器，以至于api13的方法会报错，所�
   s.source           = { :git => 'https://github.com/1245485258@qq.com/UsingCoreBluetoothClassic5_iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '10.0'
 
   s.source_files = 'UsingCoreBluetoothClassic5_iOS/Classes/**/*'
   
