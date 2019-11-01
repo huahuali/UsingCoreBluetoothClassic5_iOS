@@ -1,0 +1,769 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13B11DA4E62C2B19A3EA4A229546892A /* UsingCoreBluetoothClassic5_iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EA5C7CC2C983E975DB27DD3A9018E97 /* UsingCoreBluetoothClassic5_iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		513ECDF3E572F3FE74654A95F93E1FEA /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8651F367419B9538C3F5491A3170E296 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-dummy.m */; };
+		54505CC39A74C11899382DF34177D6FD /* Pods-UsingCoreBluetoothClassic5_iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF20DC8986B289FA114918002D980CD /* Pods-UsingCoreBluetoothClassic5_iOS_Example-dummy.m */; };
+		54D397994EE6E8E961CF4E83B1F626ED /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8158DC85BE001CFA1CFB3D876BDB379 /* ReplaceMe.swift */; };
+		5519612C9D03F3A6117BBC7736D305D9 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E15E65621C2339DB0A99D484A26C132 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6F090E40FC7618E296F7B159B45A664A /* UsingCoreBluetoothClassic5_iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA5AE10AAB4EEB54056D6346095297BD /* UsingCoreBluetoothClassic5_iOS-dummy.m */; };
+		77731664FBB6A7428586010EE3C3071E /* Pods-UsingCoreBluetoothClassic5_iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42527E186FF5783B9E9D83A74B1FA007 /* Pods-UsingCoreBluetoothClassic5_iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F27618414F725F6D5E2F074A3D2BCE2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A2EDE20405D72CC90AEA5B4E0F4C9348 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C3DD9BC0A0016D3A33C6F4D567B77FAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B1E264BD50CECE23730D63286CC769E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 90383ADF58783B1D962DA81B475D2C48;
+			remoteInfo = "Pods-UsingCoreBluetoothClassic5_iOS_Example";
+		};
+		772947894B3864BB3CD7758505867344 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8349FF9D487452A8C2C5AF7D6ED9018C;
+			remoteInfo = UsingCoreBluetoothClassic5_iOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CDA3085FCA159EC00891E6384C7B9DB /* UsingCoreBluetoothClassic5_iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UsingCoreBluetoothClassic5_iOS.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		15A6F885A82A77F26CD067E23524F42C /* Pods-UsingCoreBluetoothClassic5_iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UsingCoreBluetoothClassic5_iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		1B06D82011F881FE084C19FEB267D8B4 /* UsingCoreBluetoothClassic5_iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UsingCoreBluetoothClassic5_iOS-prefix.pch"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3E15E65621C2339DB0A99D484A26C132 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsingCoreBluetoothClassic5_iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		42527E186FF5783B9E9D83A74B1FA007 /* Pods-UsingCoreBluetoothClassic5_iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UsingCoreBluetoothClassic5_iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		4BB38BA880646B4107A656D55748A82B /* Pods-UsingCoreBluetoothClassic5_iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsingCoreBluetoothClassic5_iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4D94505041C45CBEDD7C9D56F68EDB0A /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UsingCoreBluetoothClassic5_iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		51D79CC096FC7924C8053B64555ED99C /* Pods-UsingCoreBluetoothClassic5_iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UsingCoreBluetoothClassic5_iOS_Example.modulemap"; sourceTree = "<group>"; };
+		5ED14136836B027300C63E2C0EBB008C /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UsingCoreBluetoothClassic5_iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		780CDBA7761357420A3A68281EBC4E83 /* UsingCoreBluetoothClassic5_iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UsingCoreBluetoothClassic5_iOS.modulemap; sourceTree = "<group>"; };
+		79F19A8AB3C0A67A917739B7B1A20A18 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UsingCoreBluetoothClassic5_iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		7EA5C7CC2C983E975DB27DD3A9018E97 /* UsingCoreBluetoothClassic5_iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UsingCoreBluetoothClassic5_iOS-umbrella.h"; sourceTree = "<group>"; };
+		7F1CB6231DB227F2AC51E20D8AC9103A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		81CCB881C217A285652D3FC837C34BEF /* Pods_UsingCoreBluetoothClassic5_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UsingCoreBluetoothClassic5_iOS_Example.framework; path = "Pods-UsingCoreBluetoothClassic5_iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8651F367419B9538C3F5491A3170E296 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UsingCoreBluetoothClassic5_iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		8FD7452DA2FA12A5819AEA6E406CC088 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UsingCoreBluetoothClassic5_iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		90F5EFDC308D7292ACFCE19538298CD0 /* Pods-UsingCoreBluetoothClassic5_iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsingCoreBluetoothClassic5_iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		93F40E2381507E931A689BA297813B1D /* UsingCoreBluetoothClassic5_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UsingCoreBluetoothClassic5_iOS.framework; path = UsingCoreBluetoothClassic5_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8158DC85BE001CFA1CFB3D876BDB379 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UsingCoreBluetoothClassic5_iOS/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		AA76AA773E299639A53FDDBD92187603 /* Pods-UsingCoreBluetoothClassic5_iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsingCoreBluetoothClassic5_iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AAD89D1CB074CB5D216F77043DA96A8F /* UsingCoreBluetoothClassic5_iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UsingCoreBluetoothClassic5_iOS.xcconfig; sourceTree = "<group>"; };
+		ABF20DC8986B289FA114918002D980CD /* Pods-UsingCoreBluetoothClassic5_iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UsingCoreBluetoothClassic5_iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		C823ED0F3ED36691354F52F13B02372F /* Pods-UsingCoreBluetoothClassic5_iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UsingCoreBluetoothClassic5_iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CCEBD164B65F6F1B26282EC95535D383 /* UsingCoreBluetoothClassic5_iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UsingCoreBluetoothClassic5_iOS-Info.plist"; sourceTree = "<group>"; };
+		DFBA0120425B351FBB8ADFDDC140AD41 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		E5DF69709060CC44F4DBCDD54264F6A0 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UsingCoreBluetoothClassic5_iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EA5AE10AAB4EEB54056D6346095297BD /* UsingCoreBluetoothClassic5_iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UsingCoreBluetoothClassic5_iOS-dummy.m"; sourceTree = "<group>"; };
+		EC35D997175F5C3B6542ADFF144CF0B2 /* Pods-UsingCoreBluetoothClassic5_iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UsingCoreBluetoothClassic5_iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EF56ECBF20D9F95C09D377400AB3B74B /* Pods_UsingCoreBluetoothClassic5_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UsingCoreBluetoothClassic5_iOS_Tests.framework; path = "Pods-UsingCoreBluetoothClassic5_iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBCCAC52076563A61D0537875FD53C7E /* Pods-UsingCoreBluetoothClassic5_iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UsingCoreBluetoothClassic5_iOS_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		379DD802349DFFF854BB12E5DF6243A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F27618414F725F6D5E2F074A3D2BCE2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D520F4E81341FD3673496840D8711CB4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2EDE20405D72CC90AEA5B4E0F4C9348 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB0BD3A8D2462A5A97C01B0E076F4794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DD9BC0A0016D3A33C6F4D567B77FAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10241B37E3C9A4A0664F3F0986044778 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				79F19A8AB3C0A67A917739B7B1A20A18 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests.modulemap */,
+				4D94505041C45CBEDD7C9D56F68EDB0A /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-acknowledgements.markdown */,
+				8FD7452DA2FA12A5819AEA6E406CC088 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-acknowledgements.plist */,
+				8651F367419B9538C3F5491A3170E296 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-dummy.m */,
+				5ED14136836B027300C63E2C0EBB008C /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-Info.plist */,
+				3E15E65621C2339DB0A99D484A26C132 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-umbrella.h */,
+				E5DF69709060CC44F4DBCDD54264F6A0 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests.debug.xcconfig */,
+				4BB38BA880646B4107A656D55748A82B /* Pods-UsingCoreBluetoothClassic5_iOS_Tests.release.xcconfig */,
+			);
+			name = "Pods-UsingCoreBluetoothClassic5_iOS_Tests";
+			path = "Target Support Files/Pods-UsingCoreBluetoothClassic5_iOS_Tests";
+			sourceTree = "<group>";
+		};
+		3AEDE09E72C93CB828F2930A2382A143 /* Pods-UsingCoreBluetoothClassic5_iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				51D79CC096FC7924C8053B64555ED99C /* Pods-UsingCoreBluetoothClassic5_iOS_Example.modulemap */,
+				EC35D997175F5C3B6542ADFF144CF0B2 /* Pods-UsingCoreBluetoothClassic5_iOS_Example-acknowledgements.markdown */,
+				15A6F885A82A77F26CD067E23524F42C /* Pods-UsingCoreBluetoothClassic5_iOS_Example-acknowledgements.plist */,
+				ABF20DC8986B289FA114918002D980CD /* Pods-UsingCoreBluetoothClassic5_iOS_Example-dummy.m */,
+				C823ED0F3ED36691354F52F13B02372F /* Pods-UsingCoreBluetoothClassic5_iOS_Example-frameworks.sh */,
+				FBCCAC52076563A61D0537875FD53C7E /* Pods-UsingCoreBluetoothClassic5_iOS_Example-Info.plist */,
+				42527E186FF5783B9E9D83A74B1FA007 /* Pods-UsingCoreBluetoothClassic5_iOS_Example-umbrella.h */,
+				90F5EFDC308D7292ACFCE19538298CD0 /* Pods-UsingCoreBluetoothClassic5_iOS_Example.debug.xcconfig */,
+				AA76AA773E299639A53FDDBD92187603 /* Pods-UsingCoreBluetoothClassic5_iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-UsingCoreBluetoothClassic5_iOS_Example";
+			path = "Target Support Files/Pods-UsingCoreBluetoothClassic5_iOS_Example";
+			sourceTree = "<group>";
+		};
+		688DFDF9D1F4F598E6351B3811C393EC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				780CDBA7761357420A3A68281EBC4E83 /* UsingCoreBluetoothClassic5_iOS.modulemap */,
+				AAD89D1CB074CB5D216F77043DA96A8F /* UsingCoreBluetoothClassic5_iOS.xcconfig */,
+				EA5AE10AAB4EEB54056D6346095297BD /* UsingCoreBluetoothClassic5_iOS-dummy.m */,
+				CCEBD164B65F6F1B26282EC95535D383 /* UsingCoreBluetoothClassic5_iOS-Info.plist */,
+				1B06D82011F881FE084C19FEB267D8B4 /* UsingCoreBluetoothClassic5_iOS-prefix.pch */,
+				7EA5C7CC2C983E975DB27DD3A9018E97 /* UsingCoreBluetoothClassic5_iOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UsingCoreBluetoothClassic5_iOS";
+			sourceTree = "<group>";
+		};
+		8BD663697C3A859C463F8E8C8D94B468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81CCB881C217A285652D3FC837C34BEF /* Pods_UsingCoreBluetoothClassic5_iOS_Example.framework */,
+				EF56ECBF20D9F95C09D377400AB3B74B /* Pods_UsingCoreBluetoothClassic5_iOS_Tests.framework */,
+				93F40E2381507E931A689BA297813B1D /* UsingCoreBluetoothClassic5_iOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C6B0BA33C5E8D3A976E250FA56C79DB2 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD818169C79D9B4D56F7E6B34F6901AF /* UsingCoreBluetoothClassic5_iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CD818169C79D9B4D56F7E6B34F6901AF /* UsingCoreBluetoothClassic5_iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A8158DC85BE001CFA1CFB3D876BDB379 /* ReplaceMe.swift */,
+				E0B83BA58E66E4DD49D6FACDA34BBFD9 /* Pod */,
+				688DFDF9D1F4F598E6351B3811C393EC /* Support Files */,
+			);
+			name = UsingCoreBluetoothClassic5_iOS;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C6B0BA33C5E8D3A976E250FA56C79DB2 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				8BD663697C3A859C463F8E8C8D94B468 /* Products */,
+				FFC7273245BD31A68076C745FC59A4E1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0B83BA58E66E4DD49D6FACDA34BBFD9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				7F1CB6231DB227F2AC51E20D8AC9103A /* LICENSE */,
+				DFBA0120425B351FBB8ADFDDC140AD41 /* README.md */,
+				0CDA3085FCA159EC00891E6384C7B9DB /* UsingCoreBluetoothClassic5_iOS.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FFC7273245BD31A68076C745FC59A4E1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AEDE09E72C93CB828F2930A2382A143 /* Pods-UsingCoreBluetoothClassic5_iOS_Example */,
+				10241B37E3C9A4A0664F3F0986044778 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		897C4FD3D708BC8CD400652421623A2B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5519612C9D03F3A6117BBC7736D305D9 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AAF23777FFF1BD58DCBC05EC5E1F4FF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B11DA4E62C2B19A3EA4A229546892A /* UsingCoreBluetoothClassic5_iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDAA874E8148EDBDF4ED53E24D7434BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77731664FBB6A7428586010EE3C3071E /* Pods-UsingCoreBluetoothClassic5_iOS_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5BC33C4A9FF946F7FA2112A993D73412 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9637D8144D1C537A3B936DEE7E89D76E /* Build configuration list for PBXNativeTarget "Pods-UsingCoreBluetoothClassic5_iOS_Tests" */;
+			buildPhases = (
+				897C4FD3D708BC8CD400652421623A2B /* Headers */,
+				22638BB8028DF42738FC580B60A84D4E /* Sources */,
+				EB0BD3A8D2462A5A97C01B0E076F4794 /* Frameworks */,
+				73C752152CC1F1798189F5E5BC983B3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADF53584845E8E231657948B5FB92011 /* PBXTargetDependency */,
+			);
+			name = "Pods-UsingCoreBluetoothClassic5_iOS_Tests";
+			productName = "Pods-UsingCoreBluetoothClassic5_iOS_Tests";
+			productReference = EF56ECBF20D9F95C09D377400AB3B74B /* Pods_UsingCoreBluetoothClassic5_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8349FF9D487452A8C2C5AF7D6ED9018C /* UsingCoreBluetoothClassic5_iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21668959EF80C96FC5990EE90D5C4D7E /* Build configuration list for PBXNativeTarget "UsingCoreBluetoothClassic5_iOS" */;
+			buildPhases = (
+				8AAF23777FFF1BD58DCBC05EC5E1F4FF /* Headers */,
+				EAE852903318F48FA03252205D903D60 /* Sources */,
+				379DD802349DFFF854BB12E5DF6243A0 /* Frameworks */,
+				E602A4270DB5B61321EA4FBEE12656C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UsingCoreBluetoothClassic5_iOS;
+			productName = UsingCoreBluetoothClassic5_iOS;
+			productReference = 93F40E2381507E931A689BA297813B1D /* UsingCoreBluetoothClassic5_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		90383ADF58783B1D962DA81B475D2C48 /* Pods-UsingCoreBluetoothClassic5_iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F1CBE2F71472FFA2308673ED63C28A /* Build configuration list for PBXNativeTarget "Pods-UsingCoreBluetoothClassic5_iOS_Example" */;
+			buildPhases = (
+				DDAA874E8148EDBDF4ED53E24D7434BC /* Headers */,
+				25B2AA860C69EFBB8018D482E7755518 /* Sources */,
+				D520F4E81341FD3673496840D8711CB4 /* Frameworks */,
+				A38226A6BBC9C1E344029F1D49E16311 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B79B5E937A914EB94CAD0D2BD3E6E71F /* PBXTargetDependency */,
+			);
+			name = "Pods-UsingCoreBluetoothClassic5_iOS_Example";
+			productName = "Pods-UsingCoreBluetoothClassic5_iOS_Example";
+			productReference = 81CCB881C217A285652D3FC837C34BEF /* Pods_UsingCoreBluetoothClassic5_iOS_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8BD663697C3A859C463F8E8C8D94B468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				90383ADF58783B1D962DA81B475D2C48 /* Pods-UsingCoreBluetoothClassic5_iOS_Example */,
+				5BC33C4A9FF946F7FA2112A993D73412 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests */,
+				8349FF9D487452A8C2C5AF7D6ED9018C /* UsingCoreBluetoothClassic5_iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73C752152CC1F1798189F5E5BC983B3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A38226A6BBC9C1E344029F1D49E16311 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E602A4270DB5B61321EA4FBEE12656C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22638BB8028DF42738FC580B60A84D4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				513ECDF3E572F3FE74654A95F93E1FEA /* Pods-UsingCoreBluetoothClassic5_iOS_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25B2AA860C69EFBB8018D482E7755518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54505CC39A74C11899382DF34177D6FD /* Pods-UsingCoreBluetoothClassic5_iOS_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAE852903318F48FA03252205D903D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54D397994EE6E8E961CF4E83B1F626ED /* ReplaceMe.swift in Sources */,
+				6F090E40FC7618E296F7B159B45A664A /* UsingCoreBluetoothClassic5_iOS-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADF53584845E8E231657948B5FB92011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UsingCoreBluetoothClassic5_iOS_Example";
+			target = 90383ADF58783B1D962DA81B475D2C48 /* Pods-UsingCoreBluetoothClassic5_iOS_Example */;
+			targetProxy = 6B1E264BD50CECE23730D63286CC769E /* PBXContainerItemProxy */;
+		};
+		B79B5E937A914EB94CAD0D2BD3E6E71F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = UsingCoreBluetoothClassic5_iOS;
+			target = 8349FF9D487452A8C2C5AF7D6ED9018C /* UsingCoreBluetoothClassic5_iOS */;
+			targetProxy = 772947894B3864BB3CD7758505867344 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ADFE9A848D25CD4E12494A46EC32510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BB38BA880646B4107A656D55748A82B /* Pods-UsingCoreBluetoothClassic5_iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsingCoreBluetoothClassic5_iOS_Tests/Pods-UsingCoreBluetoothClassic5_iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UsingCoreBluetoothClassic5_iOS_Tests/Pods-UsingCoreBluetoothClassic5_iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8060F07BFA6501217690E5D93BE86481 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5DF69709060CC44F4DBCDD54264F6A0 /* Pods-UsingCoreBluetoothClassic5_iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsingCoreBluetoothClassic5_iOS_Tests/Pods-UsingCoreBluetoothClassic5_iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UsingCoreBluetoothClassic5_iOS_Tests/Pods-UsingCoreBluetoothClassic5_iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B0DB1350A3A9E70124C49C5A4AF568EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD89D1CB074CB5D216F77043DA96A8F /* UsingCoreBluetoothClassic5_iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UsingCoreBluetoothClassic5_iOS/UsingCoreBluetoothClassic5_iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UsingCoreBluetoothClassic5_iOS/UsingCoreBluetoothClassic5_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UsingCoreBluetoothClassic5_iOS/UsingCoreBluetoothClassic5_iOS.modulemap";
+				PRODUCT_MODULE_NAME = UsingCoreBluetoothClassic5_iOS;
+				PRODUCT_NAME = UsingCoreBluetoothClassic5_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DB38597E28AA7E1EEDC8BE45165FD110 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90F5EFDC308D7292ACFCE19538298CD0 /* Pods-UsingCoreBluetoothClassic5_iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsingCoreBluetoothClassic5_iOS_Example/Pods-UsingCoreBluetoothClassic5_iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UsingCoreBluetoothClassic5_iOS_Example/Pods-UsingCoreBluetoothClassic5_iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7D03A31D279A68E89BDA0B75F2705ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAD89D1CB074CB5D216F77043DA96A8F /* UsingCoreBluetoothClassic5_iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/UsingCoreBluetoothClassic5_iOS/UsingCoreBluetoothClassic5_iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/UsingCoreBluetoothClassic5_iOS/UsingCoreBluetoothClassic5_iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/UsingCoreBluetoothClassic5_iOS/UsingCoreBluetoothClassic5_iOS.modulemap";
+				PRODUCT_MODULE_NAME = UsingCoreBluetoothClassic5_iOS;
+				PRODUCT_NAME = UsingCoreBluetoothClassic5_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F77D445DADA5E6A004EFA84BA19D5579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA76AA773E299639A53FDDBD92187603 /* Pods-UsingCoreBluetoothClassic5_iOS_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UsingCoreBluetoothClassic5_iOS_Example/Pods-UsingCoreBluetoothClassic5_iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UsingCoreBluetoothClassic5_iOS_Example/Pods-UsingCoreBluetoothClassic5_iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21668959EF80C96FC5990EE90D5C4D7E /* Build configuration list for PBXNativeTarget "UsingCoreBluetoothClassic5_iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0DB1350A3A9E70124C49C5A4AF568EA /* Debug */,
+				E7D03A31D279A68E89BDA0B75F2705ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9637D8144D1C537A3B936DEE7E89D76E /* Build configuration list for PBXNativeTarget "Pods-UsingCoreBluetoothClassic5_iOS_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8060F07BFA6501217690E5D93BE86481 /* Debug */,
+				0ADFE9A848D25CD4E12494A46EC32510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F1CBE2F71472FFA2308673ED63C28A /* Build configuration list for PBXNativeTarget "Pods-UsingCoreBluetoothClassic5_iOS_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB38597E28AA7E1EEDC8BE45165FD110 /* Debug */,
+				F77D445DADA5E6A004EFA84BA19D5579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

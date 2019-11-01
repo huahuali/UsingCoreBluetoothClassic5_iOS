@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'UsingCoreBluetoothClassic5_iOS_Example' do
+  pod 'UsingCoreBluetoothClassic5_iOS', :path => '../'
+
+  target 'UsingCoreBluetoothClassic5_iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

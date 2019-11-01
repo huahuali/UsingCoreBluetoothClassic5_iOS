@@ -1,0 +1,6 @@
+framework module UsingCoreBluetoothClassic5_iOS {
+  umbrella header "UsingCoreBluetoothClassic5_iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

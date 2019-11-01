@@ -1,0 +1,22 @@
+{
+  "name": "UsingCoreBluetoothClassic5_iOS",
+  "version": "0.1.0",
+  "summary": "A short description of UsingCoreBluetoothClassic5_iOS.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/1245485258@qq.com/UsingCoreBluetoothClassic5_iOS",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "1245485258@qq.com": "shaohuali@bestechnic.com"
+  },
+  "source": {
+    "git": "https://github.com/1245485258@qq.com/UsingCoreBluetoothClassic5_iOS.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "UsingCoreBluetoothClassic5_iOS/Classes/**/*"
+}

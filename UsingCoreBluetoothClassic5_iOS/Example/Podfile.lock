@@ -1,0 +1,16 @@
+PODS:
+  - UsingCoreBluetoothClassic5_iOS (0.1.0)
+
+DEPENDENCIES:
+  - UsingCoreBluetoothClassic5_iOS (from `../`)
+
+EXTERNAL SOURCES:
+  UsingCoreBluetoothClassic5_iOS:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UsingCoreBluetoothClassic5_iOS: 7af7efff29dfce9dde24c743dd065ecd3e81ea1e
+
+PODFILE CHECKSUM: 3b6080dd62e51b979b4ba4886b5c1de6675696d1
+
+COCOAPODS: 1.8.4
