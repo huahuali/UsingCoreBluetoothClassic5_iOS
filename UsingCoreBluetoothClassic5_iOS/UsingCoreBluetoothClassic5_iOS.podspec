@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UsingCoreBluetoothClassic5_iOS'
-  s.version          = '1.1.3'
-  s.summary          = '更新版本.'
+  s.version          = '1.1.4'
+  s.summary          = '更新版本:1.1.4'
   s.swift_versions   = '5.0'
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: xcode11.1没有iOS13的模拟器，以至于api13的方法会报错，所以code中注释掉来了。使用的话，把所有有关iOS的code，注释开即可
+TODO: xcode11.1没有iOS13的模拟器，以至于api13的方法会报错，所以code中注释掉来了。使用的话，把所有有关iOS的code，注释开即可.更新版本:1.1.4
                        DESC
 
   s.homepage         = 'https://github.com/huahuali/UsingCoreBluetoothClassic5_iOS'
